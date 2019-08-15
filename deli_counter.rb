@@ -8,7 +8,7 @@ def line (deli_line)
   else
     current_line = "The line is currently: "
     deli_line.each_with_index do |person, pos|
-    current_line << "#{ katz_deli[pos] }." + person
+    current_line << "#{ pos }." + person
   end
   current_line
 end
