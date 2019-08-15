@@ -8,7 +8,7 @@ def line (deli_line)
   else
     current_line = "The line is currently: "
     deli_line.each_with_index do |person, pos|
-    current_line << "#{ katz_deli[0] }. #{katz_deli}"
+    current_line << "#{ katz_deli[pos] }. #{katz_deli[pos]}"
   end
   current_line
 end
