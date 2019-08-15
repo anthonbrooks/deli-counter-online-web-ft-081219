@@ -10,7 +10,7 @@ def line (deli_line)
     deli_line.each.with_index(1) do |person, pos|
       current_line << "#{pos}. #{person}"
     end
-  current_line
+  puts current_line
   end
 end
 
