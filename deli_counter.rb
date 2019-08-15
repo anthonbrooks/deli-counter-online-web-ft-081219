@@ -8,10 +8,10 @@ def line (deli_line)
   else
     current_line = "The line is currently: "
     deli_line.each.with_index(1) do |person, pos|
-    current_line << "#{pos}. #{person}"
-  end
+      current_line << "#{pos}. #{person}"
+    end
   current_line
-end
+  end
 end
 
 def take_a_number (katz_deli, name)
