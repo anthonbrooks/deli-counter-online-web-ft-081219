@@ -10,8 +10,8 @@ def line (deli_line)
     deli_line.each_with_index do |person, pos|
     #{katz_deli[0] + 1}. #{katz_deli}"
   end
-end
   current_line
+end
 end
 
 def take_a_number (katz_deli, name)
