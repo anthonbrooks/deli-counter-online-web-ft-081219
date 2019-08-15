@@ -5,7 +5,7 @@ def line (deli_line)
   if katz_deli.length == 0
     puts "The line is currently empty."
 
-  elsif katz_deli.length > 0 
+  else
     puts "The line is currently: #{katz_deli[0] + 1}. #{katz_deli}"
   end
   
